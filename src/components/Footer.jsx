@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="max-w-full m-auto pt-20 pb-10 bg-black mt-12">
       {/* FIRST CHILD FOOTER CONTAINER */}
-      <div className=" flex gap-6 flex-col md:flex-row justify-between items-start lg:justify-evenly mb-20 text-white p-4 ">
+      <div className=" flex gap-8 md:gap-0 flex-col md:flex-row justify-between items-start lg:justify-evenly mb-20 text-white p-4 ">
         {/* Talent */}
         <div className="flex flex-col gap-2 items-start">
           <h3 className="uppercase font-bold text-xl lg:text-24px tracking-widest  ">
@@ -55,9 +55,15 @@ function Footer() {
         <span className="border-b flex justify-between items-center mx-5 lg:mx-20">
           <p>&copy; 2025 Ife Makinde. All rights reserved</p>
           <ul className="flex gap-2 justify-center px-2">
-            <li>git</li>
-            <li>linkd</li>
-            <li>twitter</li>
+            <a href="">
+              <gitHub />
+            </a>
+            <a href="">
+              <gitHub />
+            </a>
+            <a href="">
+              <gitHub />
+            </a>
           </ul>
         </span>
         <h1 className="text-4xl lg:text-[3rem] text-center font-bold tracking-wider">
