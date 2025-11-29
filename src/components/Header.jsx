@@ -30,8 +30,11 @@ function Header() {
         <nav className="hidden md:block">
           <ul className="flex items-center gap-4 md:gap-7  p-4">
             {header.map((link) => (
-              <li className="text-[18px] font-semibold" key={link}>
-                <a href="" className=" text-white">
+              <li className="font-semibold" key={link}>
+                <a
+                  href=""
+                  className="text-white text-base hover:bg-[#e0f2f1] hover:border hover:py-2 hover:px-3 hover:text-[#00aeff]"
+                >
                   {link}
                 </a>
               </li>
